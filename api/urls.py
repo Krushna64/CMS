@@ -7,8 +7,6 @@ urlpatterns = [
     path('login', signin, name='login'),
     path('logout', signout, name='logout'),
     # User
-    # path('users', UserListCreateView.as_view(), name='user-list-create'),
-    # path('users/<int:id>', UserRetrieveUpdateDestroyView.as_view(), name='user-retrieve-update-destroy'),
     path('users', UserAPI.as_view(), name='user-list-create'),
     path('users/<int:id>', UserAPI.as_view(), name='user-retrieve-update-destroy'),
     # Contents
