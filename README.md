@@ -6,7 +6,7 @@ Clone the repository:
 
 ```sh
 $ git clone https://github.com/Krushna64/CMS.git
-$ cd sample-django-app
+$ cd ContentManagementSystem
 ```
 
 Create a virtual environment to install dependencies in and activate it:
