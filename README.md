@@ -5,7 +5,7 @@
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/gocardless/sample-django-app.git
+$ git clone https://github.com/Krushna64/CMS.git
 $ cd sample-django-app
 ```
 
